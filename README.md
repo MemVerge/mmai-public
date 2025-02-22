@@ -19,6 +19,9 @@
   - `Rancher`
 - `kubectl` version v1.28+.
 - `Helm` version v3.14+.
+- Download the `mvai` package from the [releases page](https://github.com/MemVerge/mmai-public/releases) that includes:
+  - Binary `mvaictl` to manage MemVerge.ai product from cmdline.
+  - Script `mvai-cleanup.sh` to fully cleanup MemVerge.ai installation.
 
 ## Acquire GitHub Token
 
@@ -72,7 +75,7 @@ helm install --namespace cattle-system mmai oci://ghcr.io/memverge/charts/mmai \
   - If there is only one control-plane node and there is no load balancer, the `hostname` can be the DNS name of the control-plane node.
   - If this single control-plane node has no DNS name, a fake domain name `<IP_OF_NODE>.sslip.io` can be used.
 - Set the `bootstrapPassword` to something unique for the admin user.
-- To install the latest development version, replace the `--version <version>` option with `--devel` in the install command.
+- Note that the `version` should not include prefix `v`. To install the latest development version, replace the `--version <version>` option with `--devel` in the install command.
 
 ### 2. Let's Encrypt
 
@@ -114,35 +117,35 @@ Now that MMAI is deployed, see [Adding TLS Secrets](add-tls-secrets.md) to publi
 </details>
 
 ## Billing Database Installation
-Billing features require persistent storage. By default, the cluster's default `StorageClass` is used. If the cluster doesn't have a default storage class capable of provisioning a volume for billing, there are a few alternative ways to configure persistent storage.  
+Billing features require persistent storage. By default, the cluster's default `StorageClass` is used. If the cluster doesn't have a default storage class capable of provisioning a volume for billing, there are a few alternative ways to configure persistent storage.
 
 **Note:** NFS should be used with caution. `root-squash` is incompatible, and other configurations may cause issues, such as mount options or NFS version constraints. See the [MySQL documentation](https://dev.mysql.com/doc/refman/8.4/en/disk-issues.html#disk-issues-nfs) for details.
 
 ### Configuring Billing to Use a Non-Default StorageClass
-If the cluster has an alternative `StorageClass` suitable for the billing database, you can override the default `StorageClass` by adding the following flag to the `helm install mmai` command:  
+If the cluster has an alternative `StorageClass` suitable for the billing database, you can override the default `StorageClass` by adding the following flag to the `helm install mmai` command:
 
 ```sh
---set billing.database.volume.pvc.storageClass=[StorageClass name]  
+--set billing.database.volume.pvc.storageClass=[StorageClass name]
 ```
 
-### Configuring the Installation to Use a Predefined PVC  
-If the cluster administrator wants to manually define a PVC for the billing database, disable automatic PVC creation by setting the `StorageClass` to an empty string:  
+### Configuring the Installation to Use a Predefined PVC
+If the cluster administrator wants to manually define a PVC for the billing database, disable automatic PVC creation by setting the `StorageClass` to an empty string:
 
 ```sh
---set billing.database.volume.pvc.storageClass=""  
+--set billing.database.volume.pvc.storageClass=""
 ```
 
-### Configuring the Installation to Use a HostPath Mount  
-The billing database can be configured to use `hostPath` storage, which directly creates and mounts a directory on the host node to the billing database pod. To enable `hostPath` storage, add the following flag to the `helm install mmai` command:  
+### Configuring the Installation to Use a HostPath Mount
+The billing database can be configured to use `hostPath` storage, which directly creates and mounts a directory on the host node to the billing database pod. To enable `hostPath` storage, add the following flag to the `helm install mmai` command:
 
 ```sh
---set billing.database.volume.type="hostPath"  
+--set billing.database.volume.type="hostPath"
 ```
 
-By default, the directory `/data/memverge/mmai/mysql-billing` is used. This path can be overridden with the following flag:  
+By default, the directory `/data/memverge/mmai/mysql-billing` is used. This path can be overridden with the following flag:
 
 ```sh
---set billing.database.volume.hostPath.path="/desired/path/here"  
+--set billing.database.volume.hostPath.path="/desired/path/here"
 ```
 
 ## Uninstall MMAI
@@ -153,4 +156,4 @@ This command deletes the MMAI deployment, but leaves MMAI CRDs and user-created 
 helm uninstall --namespace cattle-system mmai
 ```
 
-To completely cleanup MMAI resources, run the [cleanup.sh](cleanup.sh) script.
+To completely cleanup MMAI resources, run the `mvai-cleanup.sh` script from the released `mvai` package.

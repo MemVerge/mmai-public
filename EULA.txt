@@ -1,0 +1,349 @@
+MEMVERGE END USER LICENSE AGREEMENT
+
+This MemVerge License Agreement (the “Agreement”) is a binding contract by and
+between MemVerge, Inc. (“MemVerge”), a Delaware corporation with a place of
+business at 1525 McCarthy Blvd., Suite 218, Milpitas, CA  95035, and the
+individual or entity who downloads, installs or otherwise uses the Software
+(“Licensee”).  The effective date of the Agreement (the “Effective Date”) will
+be the date that the Licensee downloads, installs or otherwise first uses the
+Software.
+
+PLEASE READ CAREFULLY: UNLESS YOU AS THE LICENSEE HAVE ANOTHER VALID AGREEMENT
+WITH MEMVERGE APPLICABLE TO THIS SOFTWARE, THE FOLLOWING TERMS WILL GOVERN THIS
+LICENSE.  MEMVERGE PROVIDES THE SOFTWARE SOLELY ON THE TERMS AND CONDITIONS SET
+FORTH IN THIS AGREEMENT AND ON THE CONDITION THAT LICENSEE ACCEPTS AND COMPLIES
+WITH THEM. BY CLICKING "ACCEPT",   LICENSEE (A) ACCEPTS THIS AGREEMENT AND
+AGREES THAT LICENSEE IS LEGALLY BOUND BY ITS TERMS; AND (B) REPRESENTS AND
+WARRANTS THAT: (I) IF AN INDIVIDUAL, LICENSEE IS 18 YEARS OF AGE OR OLDER/OF
+LEGAL AGE TO ENTER INTO A BINDING AGREEMENT; AND (II) LICENSEE HAS THE RIGHT,
+POWER, AND AUTHORITY TO ENTER INTO THIS AGREEMENT AND BIND LICENSEE TO ITS
+TERMS. IF LICENSEE DOES NOT AGREE TO THE TERMS OF THIS AGREEMENT, MEMVERGE WILL
+NOT AND DOES NOT LICENSE THE SOFTWARE TO LICENSEE AND YOU MUST NOT INSTALL THE
+SOFTWARE OR DOCUMENTATION.  NOTWITHSTANDING ANYTHING TO THE CONTRARY IN THIS
+AGREEMENT OR LICENSEE'S ACCEPTANCE OF THE TERMS AND CONDITIONS OF THIS
+AGREEMENT, NO LICENSE IS GRANTED (WHETHER EXPRESSLY, BY IMPLICATION, OR
+OTHERWISE) UNDER THIS AGREEMENT, AND THIS AGREEMENT EXPRESSLY EXCLUDES ANY
+RIGHT, CONCERNING ANY SOFTWARE THAT LICENSEE DID NOT ACQUIRE LAWFULLY OR THAT IS
+NOT A LEGITIMATE, AUTHORIZED COPY OF MEMVERGE’S SOFTWARE.  ADDITIONAL TERMS,
+INCLUDING THOSE REGARDING LICENSE FEES, TERM AND MAX TERABYTES, HAVE BEEN AGREED
+TO BY THE PARTIES AND THOSE ADDITIONAL TERMS ARE A PART OF THIS LICENSE. 
+
+
+1. Definitions.
+
+1.1 “Documentation” means the technical and functional documentation
+relating to the Software, as may be amended from time to time by MemVerge.
+
+1.2 “DRAM” means dynamic random access memory.
+
+1.3 “Intellectual Property Rights” means copyrights, patents, trademarks,
+service marks, design rights, trade secrets, and other intellectual property
+rights worldwide.
+
+1.4 “Max Terabytes” means the total number of terabytes of system memory
+(including DRAM and PMEM) under management on a Server or Workstation for which
+Licensee is authorized to use the Software.
+
+1.5 “PMEM” means persistent memory.
+
+1.6 “Servers” means the servers on which the Software is installed and
+operated, and which meets any technical or compatibility requirements provided
+by MemVerge.
+
+1.7 “Software” means the MemVerge software provides a software
+virtualization layer that integrates with existing applications to increase
+memory and data I/O speed and any Updates thereto.
+
+1.8 “Term” means the period of time that Licensee is authorized to use the
+Software.  
+
+1.9 “Updates” means a subsequent release or version of the Software
+containing minor functional enhancements, extensions, error corrections or
+fixes, but does not include any release, option or future product which MemVerge
+licenses separately or for which MemVerge charges an additional fee.  Updates
+are included as part of maintenance and support services.  In the future some
+Updates may include enhancements made available from third parties.  If such
+third parties require additional license terms, Licensee would have to agree to
+those terms before utilizing the Update.
+
+1.10 “Workstations” means the workstations on which the Software is installed
+and operated and which meets any technical or compatibility requirements
+provided by MemVerge.
+
+
+2. License.
+
+2.1 Grant of License.  Subject to the terms and conditions
+of this Agreement, any additional terms agreed to and payment of the license fee
+charged for use of the Software, MemVerge hereby grants to Licensee a
+non-exclusive, non-transferable and non-sublicensable license during the Term
+(i) to use, to perform and display the Software, on Servers or Workstations with
+the Max Terabytes, in object code form only and for Licensee’s internal business
+purposes; and (ii) to make one copy of the Software in object code form only and
+solely for use in a non-production or testing environment and solely for
+Licensee’s internal business purposes.  Licensee shall not copy the Software
+except to make a reasonable number of copies for the purposes of security
+back-up or disaster recovery.  Whenever Licensee is permitted to copy or
+reproduce all or any part of the Software, Licensee shall reproduce all titles,
+trademark symbols, copyright symbols and legends, and other proprietary
+markings.
+
+2.2 Restrictions.  Licensee shall use the Software only on the Servers and
+Workstations unless otherwise stated in this Agreement.  Licensee shall not
+transfer, sell, license, sublicense, outsource, rent or lease the Software or
+use the Software for service bureau or other third-party use.  Licensee shall
+not make or permit the making of any modifications, additions or enhancements to
+the Software, or cause or permit the disassembly, decompilation or reverse
+engineering of the Software in whole or in part except where such restriction is
+prohibited by applicable law.  
+
+2.3 Audit.  MemVerge and/or its designated agent may audit Licensee’s use of
+the Software, upon notice to Licensee, for purposes of ensuring compliance with
+this Agreement.  Any such audit shall be conducted during regular business
+hours, not more than once per year (unless the audit reveals an underpayment in
+which case MemVerge and/or its designated agent may perform another audit within
+the same year) and shall not unreasonably interfere with Licensee's business
+activities.  If an audit reveals that Licensee has exceeded the scope of its
+license (i) Licensee shall pay for any such excess use together with interest
+thereon at a rate of 1.5% per month, or the highest rate allowed by law,
+whichever is less; and (ii) if Licensee has exceeded the scope of its license by
+5% or more (e.g. Licensee’s use on Servers and Workstations exceeds the
+authorized Max Terabytes),  Licensee shall pay the reasonable costs and expenses
+of such audit.
+
+2.4 Reservation of Rights.  Licensee acknowledges and accepts that, as
+between the parties, all right, title and interest in and to the Software and
+all Intellectual Property Rights associated with and in the Software shall at
+all times remain vested in MemVerge and its licensors, and Licensee shall
+acquire no rights, express or implied, in the Software, other than the license
+granted in this Agreement.  Licensee shall not remove or alter any Intellectual
+Property Right or proprietary notice, title, trademark symbols, copyright
+symbols and legends and other proprietary marks on the Software or on any
+related material.  
+
+2.5 Maintenance and Support.  Subject to Licensee’s payment of applicable
+license fees, MemVerge shall provide maintenance and support services for the
+Software according to the MemVerge Support Offerings which shall be included as
+part of the purchase of the Software. 
+
+3. Open Source Software.  Licensee agrees that any software or materials
+which may be made available by MemVerge, or otherwise obtained or used by
+Licensee, subject to an open source license or other open source terms (“Open
+Source Software”) shall be and shall remain subject to the terms and conditions
+of the original providers and are not part of the Software. Licensee shall not
+use or combine the Open Source Software with the Software or other items in any
+manner that would subject the Software source code to be made available under
+open source terms and conditions.
+
+4. Warranty.
+
+4.1 Limited Warranty.
+MemVerge warrants to Licensee that the Software and Open Source Software will
+operate in substantial conformance with the Documentation for a period of 90
+days after receipt of the original Software.  MemVerge’s entire liability and
+Licensee’s exclusive remedy under this warranty shall be replacement of the
+defective Software that does not meet MemVerge’s limited warranty and that is
+returned to MemVerge with a copy of Licensee’s receipt.  Notwithstanding the
+foregoing, if MemVerge is unable to repair or replace defective Software during
+the 90-day warranty period, MemVerge may, at its sole option, terminate this
+Agreement and refund the amounts received from Licensee.  This limited warranty
+is void if failure of the Software has resulted from accident, abuse, or
+misapplication.  Any replacements will be warranted for the remainder of the
+original warranty period or 30 days, whichever is longer.
+
+4.2 Disclaimer; Limitation of Liability.
+
+4.2.1 EXCEPT AS EXPRESSLY SET FORTH IN SECTION 4.1 ABOVE, MEMVERGE MAKES NO
+WARRANTIES WHETHER EXPRESS OR IMPLIED AND, TO THE EXTENT PERMITTED BY APPLICABLE
+LAW, DISCLAIMS ANY AND ALL OTHER WARRANTIES WITH RESPECT TO ANY SOFTWARE,
+SERVICES OR PROFESSIONAL SERVICES, INCLUDING, BUT NOT LIMITED TO, IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NON-INFRINGEMENT. 
+
+4.2.2 EXCEPT FOR LICENSEE’S BREACH OF SECTION 2.1 AND/OR 2.2 AND FOR EITHER
+PARTY’S BREACH OF THE CONFIDENTIALITY OBLIGATIONS OF SECTION 6, (I) IN NO EVENT
+SHALL EITHER PARTY OR ITS SUPPLIERS BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE SERVICES, PROFESSIONAL SERVICES, OR THE SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE; AND (II) MEMVERGE’S ENTIRE LIABILITY
+UNDER OR ARISING OUT OF THIS AGREEMENT SHALL NOT EXCEED THE TOTAL AMOUNT PAID TO
+MEMVERGE BY LICENSEE. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR
+EXCLUSION OF INCIDENTAL, CONSEQUENTIAL OR OTHER TYPES OF DAMAGES, SO SOME OF THE
+ABOVE LIMITATIONS MAY NOT APPLY TO LICENSEE.
+
+5. Indemnification.
+
+5.1 MemVerge’s Indemnification.  MemVerge shall
+defend, or at its option settle, any third party claim or action brought against
+Licensee that the Software infringes upon or misappropriates any United States
+copyright or trade secret of any third party or any patent of a third party
+issued under the laws of the United States as of the Effective Date, and shall
+pay any final judgments or settlements entered into; provided that:  (i)
+Licensee promptly notifies MemVerge in writing of the claim; (ii) MemVerge shall
+have the sole control of the defense and all related settlement negotiations;
+and (iii) Licensee provides MemVerge with assistance, information and authority
+as reasonably requested.  MemVerge shall have no liability hereunder if the
+actual or alleged infringement results from (a) Licensee’s breach of this
+Agreement, (b) any modification, alteration or addition made to the Software or
+any use thereof that causes either to deviate from the Documentation, (c)
+Licensee’s failure to use any corrections or modifications made available by
+MemVerge that would not result in any material loss of functionality, or (d) use
+of the Software in a manner or in connection with a product or data not
+contemplated by this Agreement.
+
+5.2 Remedies.  If the Software is held or likely to be held infringing,
+MemVerge shall have the option, at its own expense, to (i) modify the same such
+that it no longer infringes or misappropriates; (ii) obtain a license for
+Licensee to continue using the same; (iii) replace the same with functionally
+equivalent software; or (iv) if none of the foregoing is commercially practical,
+terminate this Agreement and refund a pro rata portion of license fees actually
+received by MemVerge from Licensee’s license of the applicable Software as
+amortized over a 3 year period.  THE REMEDIES SET FORTH HEREIN SHALL CONSTITUTE
+MEMVERGE’S SOLE LIABILITY AND LICENSEE’S EXCLUSIVE REMEDY FOR ANY CLAIM OF
+INFRINGEMENT OR MISAPPROPRIATION.
+
+6. Termination.
+
+6.1 Term.  This Agreement will commence on the
+Effective Date and continue for the period of time Licensee is authorized to use
+the Software, unless otherwise terminated in accordance with this Section 6.
+
+6.2 Termination.  Either party may terminate this Agreement upon written
+notice if (i) a receiver is appointed for either party or its assets; (ii)
+either party makes a general assignment for the benefit of its creditors; (iii)
+either party commences or has commenced against it, proceedings under any
+bankruptcy, insolvency, or debtor’s relief law, which proceedings are not
+dismissed within 60 days; (iv) either party is liquidated or dissolved, other
+than in a corporate reorganization in which the ongoing business of such
+liquidated or dissolved party shall be continued by substantially the same
+ownership and management as existed prior to such liquidation or dissolution; or
+(v) the non-terminating party commits a material breach of this Agreement that
+is not remedied within 30 days following receipt of written notice thereof from
+the non-breaching party.
+
+6.3 Effect of Termination.  Upon termination of this Agreement, Licensee
+shall have no further right to use the Software.  Licensee shall, as instructed
+by MemVerge, within 14 days of the date of termination either return all copies
+of the Software in its possession, or destroy all copies of the Software in its
+possession and certify in writing to MemVerge that it has done so.
+
+6.4 Survival.  Sections 1 (Definitions), 2.2 (Restrictions), 2.3 (Audit),
+2.4 (Reservation of Rights), 3 (Open Source Software), 4 (Disclaimer; Limitation
+of Liability), 5.3 (Effect of Termination), 5.4 (Survival), 6 (Confidentiality),
+and 7 (Miscellaneous), and all payment obligations of Licensee shall survive
+termination or expiration of this Agreement.
+
+7. Confidentiality.
+
+7.1 Confidentiality Undertaking.   “Confidential
+Information” means the confidential and proprietary information of the
+disclosing party (the “Discloser”) which is identified as confidential by the
+Discloser at the time of disclosure.  In addition, MemVerge Confidential
+Information includes but is not limited to the Software and Documentation, any
+responses to technical support requests, and any business information, technical
+data, or know-how relating to the Software, any services, or any associated
+technology or services, including without limitation all such information
+disclosed in written form.  Confidential Information shall not include any
+information, documentation or data that: (i) was in the possession of the
+receiving party (the “Recipient”) at the time of disclosure as shown by the
+recipient’s files and records in existence prior to the time of disclosure, (ii)
+prior to or after the time of disclosure becomes publicly known, not as a result
+of any wrongful action or omission of Recipient; (iii) is developed
+independently by Recipient without use of or reference to the Discloser’s
+Confidential Information, or (iv) is properly acquired by Recipient from a third
+party having the right to disclose such information.
+
+7.2 Obligations.  Each party shall protect the confidentiality of the other
+party’s Confidential Information by exercising at least the same standard of
+care as it uses to protect its own confidential information and shall, in any
+event: (i) hold any Confidential Information of the other party in strict
+confidence; (ii) not disclose or reveal such Confidential Information to third
+parties; (iii) not use such Confidential Information for any purpose except as
+set forth in this Agreement; and (iv) take all such steps necessary to ensure
+compliance with the provisions of this Section 7 by its employees, agents, and
+subcontractors.  Notwithstanding any of the foregoing, each party may disclose
+Confidential Information of the other party to the extent required to be
+disclosed pursuant to law or government regulation, provided that it gives the
+other party reasonable prior notice of any such disclosure and the opportunity
+to prevent such disclosure through available legal processes.
+
+8. Miscellaneous.
+
+8.1 Entire Agreement; Construction.  This Agreement
+constitutes the complete and exclusive agreement between the parties and
+supersedes any and all prior communications, representations and understandings,
+whether written or oral. This Agreement shall not be amended or modified except
+in writing by duly authorized representatives of the parties.  Section headings
+are for convenience only and shall not affect interpretation of the relevant
+section. To the extent that a purchase order or like document contains terms
+that are different from or inconsistent with this Agreement such terms are
+hereby rejected and this Agreement shall control over any such different or
+inconsistent terms.  All notices must be either sent registered or certified
+mail, return receipt requested, or served personally. This Agreement is in the
+English language only, which language shall be controlling in all respects, and
+all versions hereof in any other language shall not be binding on the parties
+hereto. All communications and notices to be made or given pursuant to this
+Agreement shall be in the English language. The parties agree that the United
+Nations Convention on the International Sale of Goods will not apply to this
+Agreement.
+
+8.2 No Third Party Beneficiaries.  Under no circumstances shall any third
+party be considered a third party beneficiary of Licensee’s rights or remedies
+under this Agreement or otherwise be entitled to any rights or remedies of
+Licensee under this Agreement.
+
+8.3 Export and Import Regulations.  Licensee acknowledges that the Software
+contains cryptographic features and is subject to United States and local
+country laws governing import, export, distribution and use. The Licensee is
+responsible for compliance by the Licensee and the end users with United States
+and local country laws and regulations and shall not export, use or transmit the
+Software (i) in violation of any export control laws of the United States or any
+other country, or (ii) to anyone on the United States Treasury Department’s list
+of Specially Designated Nationals or the U.S. Commerce Department’s Table of
+Deny Orders.
+
+8.4 Assignment.  This Agreement shall not be assigned or transferred, in
+whole or in part, without the prior written consent of the other party, which
+shall not be unreasonably withheld or delayed.  Notwithstanding the foregoing,
+MemVerge may without prior written consent (i) assign this Agreement in
+connection with the sale of all or substantially all of its stock or assets to
+which this Agreement relates, or (ii) transfer all or part of its rights and
+obligations to provide services under this Agreement.  Any assignment or
+transfer made other than in accordance with this Section is null and void.
+Subject to the foregoing, this Agreement will be binding upon, enforceable by,
+and inure to the benefit of the parties and their respective successors and
+assigns.
+
+8.5 Severability.  If any provision of this Agreement shall be held illegal
+or unenforceable by a court or tribunal of competent jurisdiction, the parties
+shall reform the provision to the minimum extent necessary to render it valid
+and enforceable in conformity with their intent as manifested herein.  The
+remainder of the Agreement shall remain in full force and effect.
+
+8.6 Governing Law.  This Agreement shall be governed by the laws of the
+United States and the State of California, without reference to conflict of laws
+principles.  Any dispute between the parties regarding this Agreement will be
+subject to the exclusive venue of the state and federal courts in the state of
+California in San Francisco, San Mateo and Santa Clara counties.  The parties
+hereby consent to the exclusive jurisdiction and venue of such courts.  
+
+8.7 U.S. Government Restricted Rights.  If the Software is accessed or used
+by any agency or other part of the U.S. Government, the U.S. Government
+acknowledges that (i) the Software and accompanying materials constitute
+“commercial computer software” and “commercial computer software documentation”
+under paragraphs 252.227.14 and 252.227.7202 of the DoD Supplement to the
+Federal Acquisition Regulations (“DFARS”) or any successor regulations, and the
+Government is acquiring only the usage rights specifically granted in this
+Agreement; (ii) the Software constitutes “restricted computer software” under
+paragraph 52.227-19 of the Federal Acquisition Regulations (“FAR”) or any
+successor regulations and the government’s usage rights are defined in this
+Agreement and the FAR.
+
+8.8 Force Majeure.  Neither party shall be liable to the other for delays or
+failures in performance resulting from causes beyond the reasonable control of
+that party, including, but not limited to, acts of God, labor disputes or
+disturbances, material shortages or rationing, riots, acts of war, governmental
+regulations, communication or utility failures, or casualties or epidemics.
